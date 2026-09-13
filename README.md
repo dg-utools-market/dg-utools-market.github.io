@@ -2,7 +2,7 @@
 
 [uTools 插件市场](https://www.u-tools.cn/plugins/) 的全量镜像浏览页：把官方市场 4000+ 个插件抓下来，做成一个可以**搜索、筛选、排序**的单页浏览工具。
 
-**在线使用**：<https://dgai5016.github.io/dg-utools-market/>
+**在线使用**：<https://dg-utools-market.github.io/>
 
 ## 为什么做这个
 

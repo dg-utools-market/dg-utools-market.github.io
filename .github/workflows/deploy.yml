@@ -1,5 +1,5 @@
 # 静态站部署：push 到 main 即把仓库根目录发布到 GitHub Pages
-# （纯静态 index.html，无需构建步骤；Pages 地址 https://dgai5016.github.io/dg-utools-market/）
+# （纯静态 index.html，无需构建步骤；Pages 地址 https://dg-utools-market.github.io/）
 name: Deploy to GitHub Pages
 
 on:

@@ -73,4 +73,4 @@ run('git', ['push']);
 console.log(`
 ✔ 更新完成：${newCount} 个插件已推送
   GitHub Actions 正在部署，约 1-2 分钟后生效：
-  https://dgai5016.github.io/dg-utools-market/`);
+  https://dg-utools-market.github.io/`);

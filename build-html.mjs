@@ -1,5 +1,5 @@
 // 把 data/plugins.jsonl + data/topics.json 合并生成一个自包含的浏览页 index.html
-// （部署在 GitHub Pages 仓库根路径，https://dgai5016.github.io/dg-utools-market/ 直接打开）
+// （部署在 GitHub Pages 仓库根路径，https://dg-utools-market.github.io/ 直接打开）
 // 用法：node build-html.mjs && open index.html
 // 页面功能：搜索 / 分类筛选 / 排序 / 插件详情（介绍+预览图）/「想装」勾选（localStorage）/ 导出清单
 
