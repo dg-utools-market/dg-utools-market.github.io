@@ -87,6 +87,7 @@ fs.writeFileSync(OUT, `<!DOCTYPE html>
   .item:hover { background: #f5f6fa; }
   .item.active { background: #eef0ff; }
   .item img { width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0; margin-top: 2px; }
+  .item .idx { width: 2.2em; text-align: right; font-size: 12px; color: #c0c4cc; flex-shrink: 0; margin-top: 3px; font-variant-numeric: tabular-nums; }
   .item .meta { flex: 1; min-width: 0; }
   .item .nm { font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 6px; }
   .item .nm .pick { color: #e6a23c; font-size: 12px; }
@@ -205,6 +206,7 @@ function renderChunk() {
     div.className = 'item' + (cur && cur.s === p.s ? ' active' : '');
     div.dataset.slug = p.s;
     div.innerHTML =
+      '<div class="idx">' + (rendered + 1) + '</div>' +
       '<img loading="lazy" src="' + p.g + '">' +
       '<div class="meta"><div class="nm">' + (picks.has(p.s) ? '<span class="pick">★</span>' : '') + esc(p.n) +
       (p.paid ? '<span class="badge">付费</span>' : '<span class="badge free">免费</span>') + '</div>' +
